@@ -16,9 +16,13 @@
     <%= f.text_field :title %>
   </div>
   <div class="field">
+    <%= f.label :file %>
+    <%= f.file_field :file %>
+  </div>
+  <!-- <div class="field">
     <%= f.label :url %><br>
     <%= f.text_field :url %>
-  </div>
+  </div> -->
   <div class="actions">
     <%= f.submit %>
   </div>
