@@ -33,6 +33,10 @@ gem 'rspec-rails', '3.1'
 gem 'rspec-context-private', '0.0.1'
 gem 'rspec-html-matchers', '0.6.1'
 
+gem "therubyracer"
+gem "less-rails" #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
+gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
+
 # Use Unicorn as the app server
 # gem 'unicorn'
 
