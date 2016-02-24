@@ -26,7 +26,12 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem "paperclip"
 
 # Use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
+gem 'bcrypt', '~> 3.1.7'
+
+gem 'rspec', '3.1'
+gem 'rspec-rails', '3.1'
+gem 'rspec-context-private', '0.0.1'
+gem 'rspec-html-matchers', '0.6.1'
 
 # Use Unicorn as the app server
 # gem 'unicorn'
