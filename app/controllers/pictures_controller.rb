@@ -63,6 +63,18 @@ class PicturesController < ApplicationController
     end
   end
 
+  def upvote
+    @picture = Picture.find(params[:id])
+    @picture.upvote_by current_user
+    redirect_to @picture
+  end
+
+  def downvote
+    @picture = Picture.find(params[:id])
+    @picture.downvote_by current_user
+    redirect_to @picture
+  end
+
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_picture

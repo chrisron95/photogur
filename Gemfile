@@ -37,6 +37,8 @@ gem "therubyracer"
 gem "less-rails" #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
 gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
 
+gem 'acts_as_votable'
+
 # Use Unicorn as the app server
 # gem 'unicorn'
 
